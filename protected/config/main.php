@@ -16,9 +16,11 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+                'application.extensions.cocoCod.*',
 	),
 
 	'modules'=>array(
+                'admin',
 		// uncomment the following to enable the Gii tool
 		
 		'gii'=>array(
@@ -32,15 +34,40 @@ return array(
 
 	// application components
 	'components'=>array(
+             'clientScript'=>array(  
+          'packages'=>array(  
+            'jquery'=>array(  
+              'baseUrl'=>'//ajax.googleapis.com/ajax/libs/jquery/1/',  
+              //'baseUrl'=>'/js/jquery/',  
+              'js'=>array('jquery.min.js'),  
+            )  
+          ),  
+        ), 
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+            
+                'authManager' => array(
+                        'class' => 'AuthManager',
+                        // Default role
+                        'defaultRoles' => array('guest'),
+                ),
+            
+                'user' => array(
+                        'class' => 'WebUser',
+                        'table' => 'UserModel',
+                        'fieldRole' => 'type',
+                        'loginUrl' => array('site/login'),
+                        // enable cookie-based authentication
+                        'allowAutoLogin' => true,
+                ),
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
 			'urlFormat'=>'path',
                         'showScriptName' => false,
 			'rules'=>array(
+                                '/' => 'site/index',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

@@ -1,33 +1,53 @@
 <?php
 
-/**
- * UserIdentity represents the data needed to identity a user.
- * It contains the authentication method that checks if the provided
- * data can identity the user.
- */
 class UserIdentity extends CUserIdentity
 {
-	/**
-	 * Authenticates a user.
-	 * The example implementation makes sure if the username and password
-	 * are both 'demo'.
-	 * In practical applications, this should be changed to authenticate
-	 * against some persistent user identity storage (e.g. database).
-	 * @return boolean whether authentication succeeds.
-	 */
-	public function authenticate()
-	{
-		$users=array(
-			// username => password
-			'demo'=>'demo',
-			'admin'=>'admin',
-		);
-		if(!isset($users[$this->username]))
-			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		elseif($users[$this->username]!==$this->password)
-			$this->errorCode=self::ERROR_PASSWORD_INVALID;
-		else
-			$this->errorCode=self::ERROR_NONE;
-		return !$this->errorCode;
-	}
+
+    /**
+     * Return user id
+     *
+     * @author Valeriy Zavolodko <vals2004@gmail.com> 
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->getState('id');
+    }
+
+    /**
+     * Returns the display name for the identity.
+     * The default implementation simply returns {@link username}.
+     * This method is required by {@link IUserIdentity}.
+     * @return string the display name for the identity.
+     */
+    public function getName()
+    {
+        return $this->getState('name');
+    }
+
+    /**
+     * Authenticates a user.
+     *
+     * @author Valeriy Zavolodko <vals2004@gmail.com>
+     * 
+     * @return boolean whether authentication succeeds.
+     */
+    public function authenticate()
+    {
+        $user = UserModel::model()->find(
+                'email=:userName AND password=:password', array(':userName' => $this->username, ':password' => UserModel::encrypt($this->password))
+        );
+
+        if (null !== $user) {
+            $this->setState('id', $user->id);
+            $this->setState('name', $user->firstName);
+            //$this->setState('model', $user);
+            $this->errorCode = self::ERROR_NONE;
+            return true;
+        } else {
+            $this->errorMessage = 'Incorrect username or password';
+            return false;
+        }
+    }
 }

@@ -19913,3 +19913,47 @@ Stack trace:
 #24 {main}
 REQUEST_URI=/index.php
 ---
+2013/11/09 12:57:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/09 12:57:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/09 13:03:02 [error] [php] Illegal string offset 'label' (C:\make a website\maximus\protected\framework\zii\widgets\CMenu.php:271)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CBaseController.php(172): SiteController->createWidget()
+#1 C:\make a website\maximus\protected\views\layouts\main.php(88): SiteController->widget()
+#2 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require()
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#4 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#5 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#6 C:\make a website\maximus\protected\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(206): CContentDecorator->run()
+#8 C:\make a website\maximus\protected\framework\web\CBaseController.php(300): SiteController->endWidget()
+#9 C:\make a website\maximus\protected\views\layouts\column1.php(6): SiteController->endContent()
+#10 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require()
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#12 C:\make a website\maximus\protected\framework\web\CController.php(784): SiteController->renderFile()
+#13 C:\make a website\maximus\protected\controllers\SiteController.php(32): SiteController->render()
+#14 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#15 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#16 C:\make a website\maximus\protected\framework\web\CController.php(286): SiteController->runAction()
+#17 C:\make a website\maximus\protected\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#18 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): SiteController->run()
+#19 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#20 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php
+in C:\make a website\maximus\protected\views\layouts\main.php (88)
+in C:\make a website\maximus\protected\views\layouts\column1.php (6)
+in C:\make a website\maximus\protected\controllers\SiteController.php (32)

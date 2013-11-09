@@ -2,50 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style-skyblue.css" type="text/css" title="skyblue" media="screen" />
-
         <style type="text/css">
-            @import url(<?php echo Yii::app()->request->baseUrl; ?>/css/style.css);			/*link to the CSS MAIN file */
-            @import url(<?php echo Yii::app()->request->baseUrl; ?>/css/tipsy.css);			/*link to the CSS file for tips */
-            @import url(<?php echo Yii::app()->request->baseUrl; ?>/css/ddsmoothmenu.css);		/*link to the CSS file for dropdown menu */
+            @import url(<?php echo Yii::app()->request->baseUrl; ?>/css/style.css);			
+            @import url(<?php echo Yii::app()->request->baseUrl; ?>/css/tipsy.css);			
+            @import url(<?php echo Yii::app()->request->baseUrl; ?>/css/ddsmoothmenu.css);		
         </style>
-
         <!-- Initialise jQuery Library -->
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/cufon/cufon-yui.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/cufon/mgopen_modata_400-mgopen_modata_700.font.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/cufon/cufon-load.js"></script>
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.cookie.js"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function() {
-                // find the div.fade elements and hook the hover event
-                $('#attr a').hover(function() {
-                    // on hovering over find the element we want to fade *up*
-                    var fade = $('> .hover', this);
-
-                    // if the element is currently being animated (to fadeOut)...
-                    if (fade.is(':animated')) {
-                        // ...stop the current animation, and fade it to 1 from current position
-                        fade.stop().fadeTo(300, 1);
-                    } else {
-                        fade.fadeIn(300);
-                    }
-                }, function() {
-                    var fade = $('> .hover', this);
-                    if (fade.is(':animated')) {
-                        fade.stop().fadeTo(300, 0);
-                    } else {
-                        fade.fadeOut(300);
-                    }
-                });
-
-                // get rid of the text
-                $('#attr a > .hover').empty();
-            })
-        </script>
         <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.tipsy.js"></script>
         <script type="text/javascript">
             $(function() {
@@ -56,17 +23,6 @@
                         });
             });
         </script>
-        <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/ddsmoothmenu.js"></script> 
-        <script type="text/javascript">
-            ddsmoothmenu.init({
-                mainmenuid: "menu", //menu DIV id
-                orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
-                classname: 'ddsmoothmenu', //class added to menu's outer DIV
-                //customtheme: ["#1c5a80", "#18374a"],
-                contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
-            })
-        </script>
-
         <title>Maximus | Home page</title>
         <meta charset="UTF-8"></head>
     <body>
@@ -118,14 +74,17 @@
                         <span class="valid">Valid xHTML | Valid CSS</span>
                     </div>
                     <div id="attr">
-                        <ul>
-                            <li><b>Stay Connected</b></li>
-                            <li><a href="#" class="ico_rss" title="RSS Feed"><span class="hover"></span></a></li>
-                            <li><a href="#" class="ico_delicious" title="Delicious"><span class="hover"></span></a></li>
-                            <li><a href="#" class="ico_fliсkr" title="Flickr"><span class="hover"></span></a></li>
-                            <li><a href="#" class="ico_twitter" title="Twitter"><span class="hover"></span></a></li>
-                            <li><a href="#" class="ico_facebook" title="Facebook"><span class="hover"></span></a></li>
-                        </ul>
+                         <?php $this->widget('zii.widgets.CMenu',array(
+                                'linkLabelWrapper' => 'span',
+                                'linkLabelWrapperHtmlOptions' => array('class'=>'hover'),
+                                'items'=>array(
+                                array('url'=>array('#'),'linkOptions'=>array('class'=>'ico_rss','title' => 'RSS')),    
+                                array('url'=>array('#'),'linkOptions'=>array('class'=>'ico_delicious','title' => 'Delicious')),     
+                                array('url'=>array('#'),'linkOptions'=>array('class'=>'ico_twitter','title' => 'Twitter')),     
+                                array('url'=>array('#'),'linkOptions'=>array('class'=>'ico_fliсkr','title' => 'Flickr')),         
+                                array('url'=>array('#'),'linkOptions'=>array('class'=>'ico_facebook','title' => 'Facebook')),         
+                                ),
+                        )); ?>
                     </div>
                     <div class="clear"></div>
                 </div>

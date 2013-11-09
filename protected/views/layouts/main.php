@@ -73,46 +73,18 @@
         <div id="wide" class="container">
             <div id="top">
                 <div class="wrap">
-                    <a href="./index.html" class="logo" title="Maximus"></a>
+                    <a href="<?php Yii::app()->createUrl("/"); ?>" class="logo" title="Maximus"></a>
                     <div id="menu">
-                        <ul class="ddsmoothmenu">
-                            <li><a href="./index.html" class="menu-item current" title="home">home</a>
-                                <ul class="children">
-                                    <li><a href="./index.html">Home Page 1</a></li>
-                                    <li><a href="./index-2.html">Home Page 2</a></li>
-                                    <li><a href="./index-3.html">Home Page 3</a></li>
-                                    <li><a href="./index-4.html">Home Page 4</a></li>
-                                    <li><a href="./index-5.html">Home Page 5</a></li>
-                                    <li><a href="./index-6.html">Home Page 6</a></li>
-                                    <li><a href="./index-7.html">Home Page 7</a></li>
-                                    <li><a href="./index-8.html">Home Page 8</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./about.html" class="menu-item" title="pages">pages</a>
-                                <ul class="children">
-                                    <li><a href="./about.html">About</a></li>
-                                    <li><a href="./services.html">Services</a></li>
-                                    <li><a href="./sidebar_left.html">Left Sidebar</a></li>
-                                    <li><a href="./bottom_sidebar.html">Bottom Sidebar</a></li>
-                                    <li><a href="./full_width.html">Full Width</a></li>
-                                    <li><a href="./layouts.html">Layouts</a></li>
-                                    <li><a href="./error_404_page.html">Error 404</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./blog.html" class="menu-item" title="blog">blog</a>
-                                <ul class="children">
-                                    <li><a href="./blog.html">Blog Page</a></li>
-                                    <li><a href="./simple_page.html">Simple Page</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./gallery.html" class="menu-item" title="gallery">gallery</a>
-                                <ul class="children">
-                                    <li><a href="./gallery.html">Gallery</a></li>
-                                    <li><a href="./gallery-video.html">Video Gallery</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./contacts.php.html" class="menu-item" title="contact">contact</a></li>
-                        </ul>
+                     <?php $this->widget('zii.widgets.CMenu',array(
+                                'htmlOptions'=> array('class' => 'ddsmoothmenu'),
+                                'items'=>array(
+                                array('label'=>'Home',    'url'=>array('/site/index')),
+                                array('label'=>'About',   'url'=>array('/site/page')),
+                                array('label'=>'Blog',    'url'=>array('/site/contact')),
+                                array('label'=>'Gallery', 'url'=>array('/site/login')),
+                                array('label'=>'Contact', 'url'=>array('/site/logout'))
+                                ),
+                     )); ?>
                     </div>
                     <div class="clear"></div>
                 </div>
@@ -127,7 +99,9 @@
                 </div>
                 <!-- End Header -->
             </div>
-            <?php echo $content; ?>
+            
+                <?php echo $content; ?>
+            
             <div id="footer_sidebar">
                 <div class="footer_sidebar_cont">
                     <h2 class="icon3">Why Choosing Us?</h2>

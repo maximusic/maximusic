@@ -20435,3 +20435,117 @@ Stack trace:
 #11 {main}
 REQUEST_URI=/admin/block/
 ---
+2013/11/09 22:00:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/09 22:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/09 22:22:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\make a website\maximus\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\make a website\maximus\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/about
+HTTP_REFERER=http://maximus/
+---
+2013/11/09 23:54:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/09 23:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\make a website\maximus\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(270): CController->missingAction('gallery')
+#1 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('gallery')
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gallery')
+#3 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\make a website\maximus\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/gallery
+HTTP_REFERER=http://maximus/site/contact
+---
+2013/11/10 00:02:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\make a website\maximus\protected\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/block/adm...')
+#9 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\make a website\maximus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/block/admin
+---
+2013/11/10 00:09:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin/block/admin".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin/blo...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/admin/block/admin
+HTTP_REFERER=http://maximus/admin/block/
+---
+2013/11/10 00:10:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin/block/admin".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin/blo...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/admin/block/admin
+HTTP_REFERER=http://maximus/admin/block/
+---
+2013/11/10 00:11:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\make a website\maximus\protected\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/contact/a...')
+#9 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\make a website\maximus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/contact/admin
+HTTP_REFERER=http://maximus/admin/block/admin
+---
+2013/11/10 00:13:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\make a website\maximus\protected\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/user/admi...')
+#9 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\make a website\maximus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/user/admin
+HTTP_REFERER=http://maximus/admin/block/admin
+---

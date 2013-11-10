@@ -15,7 +15,6 @@ class SidebarInfoWidget extends CWidget {
             case "contact":
                 $model = BlockModel::model()->findByAttributes(array('pageName' => $this->pageContent));
                 break;
-
             default:
                 break;
         }

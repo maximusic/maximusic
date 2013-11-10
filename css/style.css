@@ -119,6 +119,7 @@ input, textarea	{
     -webkit-border-radius: 3px; /* Safari and Chrome */
     border-radius: 3px; /* Opera 10.5+, future browsers, and now also Internet Explorer 6+ using IE-CSS3 */
     background:#E8E8E8;
+    width: 196px;
 }
 
 textarea		{overflow:hidden;}

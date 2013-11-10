@@ -12,6 +12,7 @@
         <h2>About Maximus Company</h2>
         <p>Donec accumsan malesuada orcidonec sitmet eros lorem ipsum dolor amet incon ect etuer adipiscing elit maurise pharetra magna donec accumsan. Malesuada orcdonec umet lorem ipsum dolorconsec tetuer male suada. Udipiscing elit mauris sifermentum tellus dolor, dapibus eget, elementum. Unean auctor wiseturna. Aliquam erat volutpat. Duis ac turpis.</p>
         <div class="line"></div>
+       
         <div class="col1">
             <p><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/pic1.jpg" width="250" height="82" alt="" class="pic" /></p>
             <h3>Web Development</h3>

@@ -35,18 +35,18 @@ return array(
 
 	// application components
 	'components'=>array(
-             'clientScript'=>array(  
-          'packages'=>array(  
-            'jquery'=>array(  
-              'baseUrl'=>'//ajax.googleapis.com/ajax/libs/jquery/1/',  
-              //'baseUrl'=>'/js/jquery/',  
-              'js'=>array('jquery.min.js'),  
-            )  
-          ),  
-        ), 
-            'bootstrap' => array(
-    'class' => 'application.extensions.yiibooster.components.Bootstrap',
-),
+             'clientScript' => array(
+            'packages' => array(
+                'jquery' => array(
+                    'baseUrl' => '//ajax.googleapis.com/ajax/libs/jquery/1/',
+                    //'baseUrl'=>'/js/jquery/',  
+                    'js' => array('jquery.min.js'),
+                )
+            ),
+        ),
+        'bootstrap' => array(
+                'class' => 'application.extensions.yiibooster.components.Bootstrap',
+               ),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

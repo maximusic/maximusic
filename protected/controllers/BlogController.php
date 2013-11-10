@@ -31,11 +31,8 @@ class BlogController extends Controller {
     public function actionIndex() {
         
         $article = ArticleModel::model()->findAll();
-        $category = CategoryModel::model()->findAll();
-        
         $this->render('index',array(
                 'article'   => $article,
-                'category'  => $category
         ));
     }
     

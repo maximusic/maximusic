@@ -51,12 +51,7 @@
                 <li><a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/banner4_125x125.jpg" width="125" height="125" alt="" /></a></li>
             </ul><div class="clear"></div>
         </div>
-        <h3>Categories</h3>
-        <ul class="slide">
-            <?php foreach($category as $category): ?>
-            <li><a href="#" title="<?php echo $category->title; ?>"><?php echo $category->title; ?></a></li>
-            <?php endforeach; ?>
-        </ul>
+        <?php $this->widget('application.widgets.CategoriesWidget');?>
         <h3>Archives</h3>
         <ul class="slide">
             <li><a href="#" title="June 2010">June 2010</a></li>

@@ -48,6 +48,7 @@
             <?php endif; ?>
             <?php endforeach; ?>
         </ul>
+        <div id="sliding-navigation" class="sidebar"></div>
         <!-- ================== End Comments Block ========================= -->
         <!-- ================== Start Comment Form Block ========================= -->
         <?php if(Yii::app()->user->isGuest): ?>
@@ -89,6 +90,14 @@
         
         <?php $this->endWidget(); ?>
         <?php endif; ?>    
+    </div>
+    <div id="sliding-navigation" class="sidebar">
+        <?php $this->widget('application.widgets.CategoriesWidget');?>
+        <?php
+        $this->widget('application.widgets.LatestNewsWidget', array(
+            'limit' => 3
+        ));
+        ?>
     </div>
 
     <div class="clear"></div>

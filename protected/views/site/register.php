@@ -102,15 +102,9 @@
  </div>
     </div>
      <div id="sliding-navigation" class="sidebar">
-        <h3>Contact Information</h3>
-        <div id="address">
-            <address><strong>Address Info:</strong> <br />
-                123 Main Street<br />
-                Los Angeles, CA, 94101</address>
-            <strong>Phone:</strong>   +1 800 123 4567<br />
-            <strong>FAX:</strong>        +1 800 891 2345<br />
-            <strong>Email:</strong> testmail@sitename.com
-        </div>
+        <?php $this->widget('application.widgets.SidebarInfoWidget',array(
+            'pageContent' => 'contact'
+        )); ?>
     </div>
     <div class="clear"></div>
 </div>

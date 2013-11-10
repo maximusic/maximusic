@@ -123,5 +123,9 @@ class SiteController extends Controller {
                 'model' => $userModel,
             ));
         }
+        
+        public function actionBlog(){
+            $this->render('blog');
+        }
 
 }

@@ -50,7 +50,15 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'lastName',
 		'email',
 		'type',
-		'avatar',
+                array(
+                    'name'  => 'avatar',
+                    'value' => '$data->getImagePath($data->id)',
+                    'type'  => 'image',
+                    'htmlOptions'=>array('class'=>'avatar'),
+
+
+                ),
+//		'avatar',
 		/*
 		'password',
 		'lastLogin',

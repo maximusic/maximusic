@@ -68,6 +68,10 @@ return array(
                         'showScriptName' => false,
 			'rules'=>array(
                                 '/' => 'site/index',
+                                'registration' => 'site/register',
+                                'login'        => 'site/login',
+                                'contacts'     => 'site/contact',
+                                'blog'         => 'blog/index',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

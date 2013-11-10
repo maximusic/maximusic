@@ -19,6 +19,9 @@
                     <?php if(!Yii::app()->user->isGuest): ?>
                     <?php echo "Hello ". Yii::app()->user->getName() . " !";?>
                     <?php endif; ?>
+                    <!--<div class="image" style="width:50px">-->
+                    <?php  //echo CHtml::image(UserModel::getImagePath(Yii::app()->user->getId()),$alt="",array('class'=>'userAvatar')); ?>
+                        <!--</div>-->
                 </p>
                 <div class="wrap">
                     <a href="<?php echo Yii::app()->createAbsoluteUrl("/"); ?>" class="logo" title="Maximus"></a>
@@ -29,7 +32,7 @@
                             'items' => array(
                                 array('label' => 'Home', 'url' => array('site/index')),
                                 array('label' => 'About', 'url' => array('/site/about')),
-                                array('label' => 'Blog', 'url' => array('/site/blog')),
+                                array('label' => 'Blog', 'url' => array('/blog/index')),
                                 array('label' => 'Gallery', 'url' => array('/site/gallery')),
                                 array('label' => 'Contact', 'url' => array('/site/contact')),
                                 array('label' => 'Registration', 'url' => array('/site/register'),'visible' => Yii::app()->user->isGuest),
@@ -43,7 +46,11 @@
                 </div>
                 <!-- Begin Header -->
             </div>
-
+            <?php if(isset($this->breadcrumbs)):?>
+		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
+			'links'=>$this->breadcrumbs,
+		)); ?><!-- breadcrumbs -->
+	<?php endif?>
         <?php echo $content; ?>
 
             <div id="footer_lower">

@@ -1098,15 +1098,16 @@ img.b			{
 #commentlist li.odd	{background:#ffffff;}
 
 div.avatar		{
-    width:60px;
-    float:left;
+    float: left;
+    width: 105px;
 }
 
 img.avatar		{
-    width:51px;
-    height:51px;
+    width:90px;
+    height:70px;
     overflow:hidden;
     border:3px solid #AEAEAE;
+    image-rendering:-webkit-optimize-contrast;
 }
 
 a:hover.reply_comment	{
@@ -1452,4 +1453,40 @@ a.ico_facebook .hover	{background:url(../images/ico_facebook.png) 0 -25px no-rep
     float: right;
     font-size: 14px;
     padding: 10px;
+}
+.userAvatar {
+    width:75px;
+    height:75px;
+}
+#blogImage{
+    width:585px;
+    height:250px;
+}
+.post_like {
+  border-radius: 3px;
+    color: #2F5879;
+    cursor: pointer;
+    font-size: 11px;
+    margin-left: 5px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 53px;
+}
+#like_icon{
+    background: url("../images/like.gif") no-repeat scroll 1px 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 10px;
+    margin-left: 4px;
+    opacity: 1;
+    position: relative;
+    top: -16px;
+    width: 32px;
+}
+.like {
+    color: #7295B2;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: bold;
+    padding: 13px;
 }

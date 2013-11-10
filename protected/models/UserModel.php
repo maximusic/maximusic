@@ -133,6 +133,20 @@ class UserModel extends CActiveRecord {
         //Save to session
         $this->onAfterFileUploaded($fullFileName, 'avatar');
     }
+    
+    /**
+     * Get Image Path
+     * @author    Igor Chepurnoy <Chepurnoy@zfort.com>
+     * @param type $id
+     * @return type
+     */
+    public static function getImagePath($id) {
+        $avatar = UserModel::model()->findByPk($id);
+        if($avatar) {
+            return "/uploads/User/".$id."/avatar/".$avatar->avatar;
+        }
+        
+    }
 
     public function behaviors()
     {

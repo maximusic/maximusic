@@ -127,5 +127,29 @@ class SiteController extends Controller {
         public function actionBlog(){
             $this->render('blog');
         }
+        
+    public function actionPage(){
+        $title = Yii::app()->request->getParam('title');
+        $this->layout='main';
+        $page = PageModel::model()->findByAttributes(array('title' => 'about'));
+            switch ($page->template) {
+            case "1column":
+                $this->layout='1columnPage';
+                $class = 'full_width';
+                break;
+            case "2columns with left sidebar":
+                $this->layout='2columnLeft';
+                $class = 'cont';
+                break;
+            case "2columns with right sidebar":
+                $this->layout='2columnRight';
+                $class = 'cont';
+                break;
+        }
+        $this->render('dynamicPage',array(
+            'page'  => $page,
+            'class' => $class    
+        ));
+    }    
 
 }

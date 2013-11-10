@@ -34,6 +34,7 @@
                                 array('label'=>'Article', 'url'=>array('article/admin')),
                                 array('label'=>'Category Article', 'url'=>array('category/admin')),
                                 array('label'=>'Comments', 'url'=>array('comment/admin')),
+                                array('label'=>'Create Page', 'url'=>array('page/admin')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),

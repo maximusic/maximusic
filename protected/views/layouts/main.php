@@ -31,7 +31,7 @@
                             'htmlOptions' => array('class' => 'ddsmoothmenu'),
                             'items' => array(
                                 array('label' => 'Home', 'url' => array('site/index')),
-                                array('label' => 'About', 'url' => array('/site/about')),
+                                array('label' => 'About', 'url' => array(Yii::app()->createUrl('/site/page',array('title' => 'about')))),
                                 array('label' => 'Blog', 'url' => array('/blog/index')),
                                 array('label' => 'Gallery', 'url' => array('/site/gallery')),
                                 array('label' => 'Contact', 'url' => array('/site/contact')),

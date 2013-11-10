@@ -16,6 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+                'application.extensions.*',
                 'application.extensions.cocoCod.*',
 	),
 
@@ -43,6 +44,9 @@ return array(
             )  
           ),  
         ), 
+            'bootstrap' => array(
+    'class' => 'application.extensions.yiibooster.components.Bootstrap',
+),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

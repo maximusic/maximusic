@@ -19,27 +19,32 @@
 </head>
 
 <body>
-
+<?php Yii::app()->getComponent("bootstrap");  ?>
 <div class="container" id="page">
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
-
-	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Block', 'url'=>array('block/admin')),
-				array('label'=>'Contact', 'url'=>array('contact/admin')),
-                                array('label'=>'Users', 'url'=>array('user/admin')),
-                                array('label'=>'Article', 'url'=>array('article/admin')),
-                                array('label'=>'Category Article', 'url'=>array('category/admin')),
-                                array('label'=>'Comments', 'url'=>array('comment/admin')),
-                                array('label'=>'Create Page', 'url'=>array('page/admin')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
-	</div><!-- mainmenu -->
+            <?php 
+            $this->widget(
+            'application.extensions.yiibooster.widgets.TbNavbar', array(
+        'brand' => 'Blog about travel',
+        'fixed' => false,
+        'items' => array(
+            array(
+                'class' => 'application.extensions.yiibooster.widgets.TbMenu',
+                'items' => array(
+                    array('label' => 'Block', 'url' => array('block/admin')),
+                    array('label' => 'Contact', 'url' => array('contact/admin')),
+                    array('label' => 'Users', 'url' => array('user/admin')),
+                    array('label' => 'Article', 'url' => array('article/admin')),
+                    array('label' => 'Category Article', 'url' => array('category/admin')),
+                    array('label' => 'Comments', 'url' => array('comment/admin')),
+                    array('label' => 'Create Static Page', 'url' => array('page/admin')),
+                    array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
+                    array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
+                )
+            )
+        )
+            )
+    );
+        ?>
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
 			'links'=>$this->breadcrumbs,
@@ -51,12 +56,17 @@
 	<div class="clear"></div>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
+		Copyright &copy; <?php echo date('Y'); ?> by Igor Chepurnoi.<br/>
 	</div><!-- footer -->
 
 </div><!-- page -->
-
+<script type="text/javascript">
+               $(function() {
+                $(".nav").each(function(){
+                    var currentUrl = "'<?php echo Yii::app()->getRequest()->getUrl(); ?>'";
+                    $('a[href='+currentUrl+']').parent().addClass('active');
+                })
+            });
+        </script>
 </body>
 </html>

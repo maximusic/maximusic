@@ -24,7 +24,6 @@
 	<?php echo Yii::app()->user->getFlash('register'); ?>
 </div>
 <?php endif; ?>     
-        <h2>Send Us a Message</h2>
         <div class="contact_form">
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'commentform',
@@ -38,6 +37,19 @@
             'autocomplete' => 'off',
     )
 )); ?>
+            
+            <p>
+		<?php echo $form->labelEx($model,'firstName'); ?>
+		<?php echo $form->textField($model,'firstName'); ?>
+                <?php echo $form->error($model,'firstName'); ?>
+            </p>
+            
+            <p>
+		<?php echo $form->labelEx($model,'lastName'); ?>
+		<?php echo $form->textField($model,'lastName'); ?>
+                <?php echo $form->error($model,'lastName'); ?>
+            </p>
+            
                 <div class="pi-row avatar-row">
                 <?php echo $form->hiddenField($model, 'avatar'); ?>
                 <img id="afterUploadPreview" src="<?php echo $model->getFileSrc('avatar') ?>" width="222">
@@ -70,18 +82,6 @@
                         //'defaultActionName' => 'coco',
                     ));
                 ?>
-            <p>
-		<?php echo $form->labelEx($model,'firstName'); ?>
-		<?php echo $form->textField($model,'firstName'); ?>
-                <?php echo $form->error($model,'firstName'); ?>
-            </p>
-            
-            <p>
-		<?php echo $form->labelEx($model,'lastName'); ?>
-		<?php echo $form->textField($model,'lastName'); ?>
-                <?php echo $form->error($model,'lastName'); ?>
-            </p>
-            
              <p>
 		<?php echo $form->labelEx($model,'email'); ?>
 		<?php echo $form->textField($model,'email'); ?>

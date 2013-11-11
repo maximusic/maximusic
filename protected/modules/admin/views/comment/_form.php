@@ -1,3 +1,4 @@
+<?php Yii::app()->getComponent("bootstrap"); ?>
 <?php
 /* @var $this CommentController */
 /* @var $model CommentModel */
@@ -6,7 +7,7 @@
 
 <div class="form">
 
-<?php $form=$this->beginWidget('CActiveForm', array(
+<?php $form=$this->beginWidget('application.extensions.yiibooster.widgets.TbActiveForm',array(
 	'id'=>'comment-model-form',
 	// Please note: When you enable ajax validation, make sure the corresponding
 	// controller action is handling ajax validation correctly.
@@ -26,8 +27,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'creationDate'); ?>
-		<?php echo $form->textField($model,'creationDate'); ?>
+		<?php echo $form->datepickerRow($model,'creationDate', array(
+                'prepend' => '<i class="icon-calendar"></i>','options'=>array('format'=>'yyyy-mm-dd '.date("H:i:s"))
+                )); ?>
 		<?php echo $form->error($model,'creationDate'); ?>
 	</div>
 
@@ -50,8 +52,7 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'status'); ?>
-		<?php echo $form->dropDownList($model,'status',array('out'=>'Out','cheked'=>'Cheked')); ?>
+		<?php echo $form->toggleButtonRow($model,'status',array('value'=>'cheked','uncheckValue'=>'Out')); ?>
 		<?php echo $form->error($model,'status'); ?>
 	</div>
 

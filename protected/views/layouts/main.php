@@ -15,14 +15,6 @@
     <body>
         <div id="wide" class="container">
             <div id="top">
-                <p class="hello">
-                    <?php if(!Yii::app()->user->isGuest): ?>
-                    <?php echo "Hello ". Yii::app()->user->getName() . " !";?>
-                    <?php endif; ?>
-                    <!--<div class="image" style="width:50px">-->
-                    <?php  //echo CHtml::image(UserModel::getImagePath(Yii::app()->user->getId()),$alt="",array('class'=>'userAvatar')); ?>
-                        <!--</div>-->
-                </p>
                 <div class="wrap">
                     <a href="<?php echo Yii::app()->createAbsoluteUrl("/"); ?>" class="logo" title="Maximus"></a>
                     <div id="menu">
@@ -31,10 +23,10 @@
                             'htmlOptions' => array('class' => 'ddsmoothmenu'),
                             'items' => array(
                                 array('label' => 'Home', 'url' => array('site/index')),
-                                array('label' => 'About', 'url' => array(Yii::app()->createUrl('/site/page',array('title' => 'about')))),
+                                array('label' => 'About', 'url' => array(Yii::app()->createUrl('/site/page',array('link' => 'about')))),
                                 array('label' => 'Blog', 'url' => array('/blog/index')),
                                 array('label' => 'Gallery', 'url' => array('/site/gallery')),
-                                array('label' => 'Contact', 'url' => array('/site/contact')),
+//                                array('label' => 'Contact', 'url' => array('/site/contact')),
                                 array('label' => 'Registration', 'url' => array('/site/register'),'visible' => Yii::app()->user->isGuest),
                                 array('label' => 'Login', 'url' => array('/site/login'),'visible' => Yii::app()->user->isGuest),
                                 array('label' => 'Exit', 'url' => array('/site/logout'),'visible' => !Yii::app()->user->isGuest),

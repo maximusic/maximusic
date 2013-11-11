@@ -18,6 +18,7 @@ return array(
 		'application.components.*',
                 'application.extensions.*',
                 'application.extensions.cocoCod.*',
+                'application.helpers.*',
 	),
 
 	'modules'=>array(
@@ -44,6 +45,9 @@ return array(
                 )
             ),
         ),
+         'errorHandler'=>array(
+            'errorAction'=>'site/error',
+        ),    
         'bootstrap' => array(
                 'class' => 'application.extensions.yiibooster.components.Bootstrap',
                ),

@@ -36,10 +36,21 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'content'); ?>
-		<?php echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'content'); ?>
-	</div>
+            <?php echo $form->labelEx($model, 'content'); ?>
+            <?php
+            $this->widget(
+                    'application.extensions.yiibooster.widgets.TbRedactorJs', [
+                'model' => $model,
+                'attribute' => 'content',
+                'value' => 'content',
+                'editorOptions' => [
+                    'plugins' => ['fontfamily']
+                ]
+                    ]
+            );
+            ?>
+            <?php echo $form->error($model, 'content'); ?>
+        </div>
         
          <div class="pi-row avatar-row">
                 <?php echo $form->hiddenField($model, 'image'); ?>

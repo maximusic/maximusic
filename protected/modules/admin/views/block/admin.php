@@ -1,15 +1,16 @@
+<?php Yii::app()->getComponent("bootstrap"); ?>
 <?php
 /* @var $this BlockController */
 /* @var $model BlockModel */
 
-$this->breadcrumbs=array(
-	'Block Models'=>array('index'),
-	'Manage',
+$this->breadcrumbs = array(
+    'Blocks' => array('index'),
+    'Manage',
 );
 
-$this->menu=array(
-	array('label'=>'List BlockModel', 'url'=>array('index')),
-	array('label'=>'Create BlockModel', 'url'=>array('create')),
+$this->menu = array(
+    array('label' => 'List Blocks', 'url' => array('index')),
+    array('label' => 'Create Block', 'url' => array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,36 +27,26 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Block Models</h1>
+<h1>Manage Blocks</h1>
 
-<p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
+<?php
+$this->widget('application.extensions.yiibooster.widgets.TbGridView', array(
+    'type' => 'striped bordered condensed',
+    'dataProvider' => $model->search(),
+    'filter' => $model,
+    'columns' => array(
+        'title',
+        array(
+            'name' => 'content',
+            'value' => 'TruncateText::truncate($data->content,100)',
+        ),
+        'image',
+        'buttonLink',
+        'buttonName',
+        'pageName',
+        array(
+            'class' => 'application.extensions.yiibooster.widgets.TbButtonColumn',
+        )),
+));
+?>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
-<div class="search-form" style="display:none">
-<?php $this->renderPartial('_search',array(
-	'model'=>$model,
-)); ?>
-</div><!-- search-form -->
-
-<?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'block-model-grid',
-	'dataProvider'=>$model->search(),
-	'filter'=>$model,
-	'columns'=>array(
-		'id',
-		'title',
-		'content',
-		'image',
-		'buttonLink',
-		'buttonName',
-		/*
-		'pageName',
-		*/
-		array(
-			'class'=>'CButtonColumn',
-		),
-	),
-)); ?>

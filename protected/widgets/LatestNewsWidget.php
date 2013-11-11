@@ -12,6 +12,7 @@ class LatestNewsWidget extends CWidget {
     
     public function run() {
         $criteria =  new CDbCriteria();
+        $criteria->order = 'RAND()';
         $criteria->limit = $this->limit;
         $model = ArticleModel::model()->findAll($criteria);
         $this->render('_latestNewsWidget',array(

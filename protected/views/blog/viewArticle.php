@@ -95,7 +95,7 @@
         <?php $this->widget('application.widgets.CategoriesWidget');?>
         <?php
         $this->widget('application.widgets.LatestNewsWidget', array(
-            'limit' => 3
+            'limit' => 2
         ));
         ?>
     </div>

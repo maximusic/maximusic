@@ -29,8 +29,15 @@ class BlogController extends Controller {
      * when an action is not explicitly requested by users.
      */
     public function actionIndex() {
+        $category  = CategoryModel::model()->findByAttributes(array('title'=>Yii::app()->request->getParam('category')));
+
+        if($category) {
+            $article = ArticleModel::model()->findAllByAttributes(array('categoryId' => $category->id));
+        }
+        else {
+            $article = ArticleModel::model()->findAll();
+        }
         
-        $article = ArticleModel::model()->findAll();
         $this->render('index',array(
                 'article'   => $article,
         ));
@@ -66,6 +73,9 @@ class BlogController extends Controller {
         ));
     }
     
+    /**
+     * Action Like
+     */
     public function actionLike(){
         $like = new LikesModel;
         $userId = Yii::app()->request->getParam('userId');

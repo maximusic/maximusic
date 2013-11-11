@@ -3,7 +3,11 @@
 class DefaultController extends Controller
 {
 	public function actionIndex()
-	{
-		$this->render('index');
+        {       if(Yii::app()->user->getType() == 'user' || Yii::app()->user->isGuest) {
+                $this->redirect(Yii::app()->createUrl('site/page?link=404'));
+        }
+        else {
+		$this->redirect(Yii::app()->createUrl('admin/block/admin'));
+             }
 	}
 }

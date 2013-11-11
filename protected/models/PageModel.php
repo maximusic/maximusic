@@ -13,7 +13,6 @@
 class PageModel extends CActiveRecord
 {
         const ONE_COLUMN = '1column';
-        const TWO_COLUMN_LEFT_SIDEBAR = '2columns with left sidebar';   
         const TWO_COLUMN_RIGHT_SIDEBAR = '2columns with right sidebar';       
 	/**
 	 * @return string the associated database table name
@@ -27,7 +26,6 @@ class PageModel extends CActiveRecord
         public static function getListTemplate(){
             $template = array(
                 self::ONE_COLUMN => 'One Column',
-                self::TWO_COLUMN_LEFT_SIDEBAR => '2 columns with left sidebar',
                 self::TWO_COLUMN_RIGHT_SIDEBAR => '2 columns with right sidebar'
             );
             return $template;

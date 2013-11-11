@@ -31073,3 +31073,1716 @@ Stack trace:
 REQUEST_URI=/site/gallery
 HTTP_REFERER=http://maximus/blog
 ---
+2013/11/10 16:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/10 20:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/10 20:50:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/10 20:56:37 [error] [php] Trying to get property of non-object (C:\make a website\maximus\protected\controllers\SiteController.php:135)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/page?title=about
+in C:\make a website\maximus\protected\controllers\SiteController.php (135)
+in C:\make a website\maximus\index.php (13)
+2013/11/10 21:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/10 21:57:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/10 22:03:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "category".' in C:\make a website\maximus\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(270): CController->missingAction('category')
+#1 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('category')
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/category/N...')
+#3 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\make a website\maximus\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/category/News
+HTTP_REFERER=http://maximus/blog
+---
+2013/11/10 22:05:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "category".' in C:\make a website\maximus\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(270): CController->missingAction('category')
+#1 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('category')
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('blog/category/N...')
+#3 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\make a website\maximus\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/category/News
+HTTP_REFERER=http://maximus/blog
+---
+2013/11/11 16:22:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/11 19:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/11 19:35:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/11/11 19:47:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/Article/3/image".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/Article...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/Article/3/image/
+HTTP_REFERER=http://maximus/blog
+---
+2013/11/11 19:51:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/2/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/2/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/2/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 19:51:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/5/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 19:51:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/6/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 19:51:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/3/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/3/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/3/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 21:57:17 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbNavbar" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PageController), 'bootstrap.widge...', Array)
+#2 C:\make a website\maximus\protected\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\make a website\maximus\protected\modules\admin\views\layouts\main.php(45): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#5 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#6 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\make a websi...', Array, true)
+#7 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#8 C:\make a website\maximus\protected\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#9 C:\make a website\maximus\protected\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\make a website\maximus\protected\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\make a website\maximus\protected\modules\admin\views\layouts\column2.php(22): CBaseController->endContent()
+#12 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#13 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#14 C:\make a website\maximus\protected\framework\web\CController.php(784): CBaseController->renderFile('C:\make a websi...', Array, true)
+#15 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): CController->render('admin', Array)
+#16 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#17 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#26 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/page/admi...')
+#27 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\make a website\maximus\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/admin/page/admin
+HTTP_REFERER=http://maximus/admin/comment/admin
+---
+2013/11/11 21:57:43 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbCollapse" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\extensions\yiibooster\widgets\TbNavbar.php(10): YiiBase::import('bootstrap.widge...')
+#1 C:\make a website\maximus\protected\framework\YiiBase.php(320): require('C:\make a websi...')
+#2 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PageController), 'application.ext...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#5 C:\make a website\maximus\protected\modules\admin\views\layouts\main.php(45): CBaseController->widget('application.ext...', Array)
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\make a websi...', Array, true)
+#9 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#10 C:\make a website\maximus\protected\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(206): COutputProcessor->run()
+#12 C:\make a website\maximus\protected\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#13 C:\make a website\maximus\protected\modules\admin\views\layouts\column2.php(22): CBaseController->endContent()
+#14 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#15 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#16 C:\make a website\maximus\protected\framework\web\CController.php(784): CBaseController->renderFile('C:\make a websi...', Array, true)
+#17 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): CController->render('admin', Array)
+#18 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#19 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#28 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/page/admi...')
+#29 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 C:\make a website\maximus\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/admin/page/admin
+HTTP_REFERER=http://maximus/admin/comment/admin
+---
+2013/11/11 21:57:57 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbCollapse" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\extensions\yiibooster\widgets\TbNavbar.php(10): YiiBase::import('bootstrap.widge...')
+#1 C:\make a website\maximus\protected\framework\YiiBase.php(320): require('C:\make a websi...')
+#2 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PageController), 'application.ext...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#5 C:\make a website\maximus\protected\modules\admin\views\layouts\main.php(45): CBaseController->widget('application.ext...', Array)
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\make a websi...', Array, true)
+#9 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#10 C:\make a website\maximus\protected\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(206): COutputProcessor->run()
+#12 C:\make a website\maximus\protected\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#13 C:\make a website\maximus\protected\modules\admin\views\layouts\column2.php(22): CBaseController->endContent()
+#14 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#15 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#16 C:\make a website\maximus\protected\framework\web\CController.php(784): CBaseController->renderFile('C:\make a websi...', Array, true)
+#17 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): CController->render('admin', Array)
+#18 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#19 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#28 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/page/admi...')
+#29 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 C:\make a website\maximus\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/admin/page/admin
+HTTP_REFERER=http://maximus/admin/comment/admin
+---
+2013/11/11 21:57:59 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbCollapse" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\extensions\yiibooster\widgets\TbNavbar.php(10): YiiBase::import('bootstrap.widge...')
+#1 C:\make a website\maximus\protected\framework\YiiBase.php(320): require('C:\make a websi...')
+#2 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PageController), 'application.ext...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#5 C:\make a website\maximus\protected\modules\admin\views\layouts\main.php(45): CBaseController->widget('application.ext...', Array)
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\make a websi...', Array, true)
+#9 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#10 C:\make a website\maximus\protected\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(206): COutputProcessor->run()
+#12 C:\make a website\maximus\protected\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#13 C:\make a website\maximus\protected\modules\admin\views\layouts\column2.php(22): CBaseController->endContent()
+#14 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#15 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#16 C:\make a website\maximus\protected\framework\web\CController.php(784): CBaseController->renderFile('C:\make a websi...', Array, true)
+#17 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): CController->render('admin', Array)
+#18 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#19 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#28 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/page/admi...')
+#29 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 C:\make a website\maximus\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/admin/page/admin
+HTTP_REFERER=http://maximus/admin/comment/admin
+---
+2013/11/11 21:58:06 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbCollapse" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\extensions\yiibooster\widgets\TbNavbar.php(10): YiiBase::import('bootstrap.widge...')
+#1 C:\make a website\maximus\protected\framework\YiiBase.php(320): require('C:\make a websi...')
+#2 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PageController), 'application.ext...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#5 C:\make a website\maximus\protected\modules\admin\views\layouts\main.php(45): CBaseController->widget('application.ext...', Array)
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\make a websi...', Array, true)
+#9 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#10 C:\make a website\maximus\protected\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(206): COutputProcessor->run()
+#12 C:\make a website\maximus\protected\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#13 C:\make a website\maximus\protected\modules\admin\views\layouts\column2.php(22): CBaseController->endContent()
+#14 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#15 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#16 C:\make a website\maximus\protected\framework\web\CController.php(784): CBaseController->renderFile('C:\make a websi...', Array, true)
+#17 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): CController->render('admin', Array)
+#18 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#19 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#28 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/page/admi...')
+#29 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 C:\make a website\maximus\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/admin/page/admin
+HTTP_REFERER=http://maximus/admin/comment/admin
+---
+2013/11/11 21:58:07 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbCollapse" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\extensions\yiibooster\widgets\TbNavbar.php(10): YiiBase::import('bootstrap.widge...')
+#1 C:\make a website\maximus\protected\framework\YiiBase.php(320): require('C:\make a websi...')
+#2 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(PageController), 'application.ext...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#5 C:\make a website\maximus\protected\modules\admin\views\layouts\main.php(45): CBaseController->widget('application.ext...', Array)
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\make a websi...', Array, true)
+#9 C:\make a website\maximus\protected\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div class="spa...')
+#10 C:\make a website\maximus\protected\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div class="spa...')
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(206): COutputProcessor->run()
+#12 C:\make a website\maximus\protected\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#13 C:\make a website\maximus\protected\modules\admin\views\layouts\column2.php(22): CBaseController->endContent()
+#14 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#15 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#16 C:\make a website\maximus\protected\framework\web\CController.php(784): CBaseController->renderFile('C:\make a websi...', Array, true)
+#17 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): CController->render('admin', Array)
+#18 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#19 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#28 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/page/admi...')
+#29 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 C:\make a website\maximus\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/admin/page/admin
+HTTP_REFERER=http://maximus/admin/comment/admin
+---
+2013/11/11 22:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/2/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/2/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/2/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 22:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/3/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/3/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/3/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 22:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/5/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 22:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/6/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 22:02:23 [error] [php] Undefined variable: gridDataProvider (C:\make a website\maximus\protected\modules\admin\views\block\admin.php:44)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(869): BlockController->renderFile()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(782): BlockController->renderPartial()
+#2 C:\make a website\maximus\protected\modules\admin\controllers\BlockController.php(127): BlockController->render()
+#3 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): BlockController->actionAdmin()
+#4 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): BlockController->runAction()
+#6 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\make a website\maximus\protected\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): BlockController->filterAccessControl()
+#9 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\make a website\maximus\protected\framework\web\CController.php(265): BlockController->runActionWithFilters()
+#12 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): BlockController->run()
+#13 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/block/admin
+in C:\make a website\maximus\protected\modules\admin\views\block\admin.php (44)
+in C:\make a website\maximus\protected\modules\admin\controllers\BlockController.php (127)
+in C:\make a website\maximus\index.php (13)
+2013/11/11 22:02:39 [error] [php] Undefined variable: gridColumns (C:\make a website\maximus\protected\modules\admin\views\block\admin.php:47)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(869): BlockController->renderFile()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(782): BlockController->renderPartial()
+#2 C:\make a website\maximus\protected\modules\admin\controllers\BlockController.php(127): BlockController->render()
+#3 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): BlockController->actionAdmin()
+#4 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): BlockController->runAction()
+#6 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\make a website\maximus\protected\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): BlockController->filterAccessControl()
+#9 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\make a website\maximus\protected\framework\web\CController.php(265): BlockController->runActionWithFilters()
+#12 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): BlockController->run()
+#13 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/block/admin
+in C:\make a website\maximus\protected\modules\admin\views\block\admin.php (47)
+in C:\make a website\maximus\protected\modules\admin\controllers\BlockController.php (127)
+in C:\make a website\maximus\index.php (13)
+2013/11/11 22:02:58 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbGridView" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('bootstrap.widge...', true)
+#1 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(BlockController), 'bootstrap.widge...', Array)
+#2 C:\make a website\maximus\protected\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\make a website\maximus\protected\modules\admin\views\block\admin.php(60): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#5 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#6 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#7 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#8 C:\make a website\maximus\protected\modules\admin\controllers\BlockController.php(127): CController->render('admin', Array)
+#9 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): BlockController->actionAdmin()
+#10 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#19 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/block/adm...')
+#20 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\make a website\maximus\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/admin/block/admin
+HTTP_REFERER=http://maximus/admin/page/admin
+---
+2013/11/11 22:03:20 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbDataColumn" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\extensions\yiibooster\widgets\TbGridView.php(11): YiiBase::import('bootstrap.widge...')
+#1 C:\make a website\maximus\protected\framework\YiiBase.php(320): require('C:\make a websi...')
+#2 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(BlockController), 'application.ext...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#5 C:\make a website\maximus\protected\modules\admin\views\block\admin.php(60): CBaseController->widget('application.ext...', Array)
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#9 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 C:\make a website\maximus\protected\modules\admin\controllers\BlockController.php(127): CController->render('admin', Array)
+#11 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): BlockController->actionAdmin()
+#12 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/block/adm...')
+#22 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\make a website\maximus\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/admin/block/admin
+HTTP_REFERER=http://maximus/admin/page/admin
+---
+2013/11/11 22:14:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gallery".' in C:\make a website\maximus\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(270): CController->missingAction('gallery')
+#1 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('gallery')
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/gallery')
+#3 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\make a website\maximus\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/gallery
+HTTP_REFERER=http://maximus/blog
+---
+2013/11/11 22:34:16 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbDataColumn" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\extensions\yiibooster\widgets\TbGridView.php(11): YiiBase::import('bootstrap.widge...')
+#1 C:\make a website\maximus\protected\framework\YiiBase.php(320): require('C:\make a websi...')
+#2 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(BlockController), 'application.ext...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#5 C:\make a website\maximus\protected\modules\admin\views\block\admin.php(47): CBaseController->widget('application.ext...', Array)
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#9 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 C:\make a website\maximus\protected\modules\admin\controllers\BlockController.php(127): CController->render('admin', Array)
+#11 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): BlockController->actionAdmin()
+#12 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/block/adm...')
+#22 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\make a website\maximus\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/admin/block/admin
+HTTP_REFERER=http://maximus/admin/block/index
+---
+2013/11/11 22:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/admin/block/admin".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/admin/blo...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/admin/block/admin
+---
+2013/11/11 22:36:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "block/admin".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('block/admin')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/block/admin
+---
+2013/11/11 22:36:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "block/admin".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('block/admin')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/block/admin
+---
+2013/11/11 22:36:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "block/admin".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('block/admin')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/block/admin
+---
+2013/11/11 22:36:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "block/admin".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('block/admin')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/block/admin
+---
+2013/11/11 22:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\make a website\maximus\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\make a website\maximus\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/admin
+---
+2013/11/11 22:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\make a website\maximus\protected\framework\web\CController.php:483
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\make a website\maximus\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/admin
+---
+2013/11/11 22:39:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\make a website\maximus\protected\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/block/adm...')
+#9 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\make a website\maximus\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/block/admin
+HTTP_REFERER=http://maximus/login
+---
+2013/11/11 22:43:17 [error] [php] Trying to get property of non-object (C:\make a website\maximus\protected\controllers\SiteController.php:135)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/page?link=404
+in C:\make a website\maximus\protected\controllers\SiteController.php (135)
+in C:\make a website\maximus\index.php (13)
+2013/11/11 22:43:59 [error] [php] Trying to get property of non-object (C:\make a website\maximus\protected\controllers\SiteController.php:138)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/page?link=404
+in C:\make a website\maximus\protected\controllers\SiteController.php (138)
+in C:\make a website\maximus\index.php (13)
+2013/11/11 22:44:06 [error] [php] Trying to get property of non-object (C:\make a website\maximus\protected\controllers\SiteController.php:139)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/page?link=404
+in C:\make a website\maximus\protected\controllers\SiteController.php (139)
+in C:\make a website\maximus\index.php (13)
+2013/11/11 22:44:09 [error] [php] Trying to get property of non-object (C:\make a website\maximus\protected\controllers\SiteController.php:139)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/page?link=404
+in C:\make a website\maximus\protected\controllers\SiteController.php (139)
+in C:\make a website\maximus\index.php (13)
+2013/11/11 22:44:51 [error] [php] Trying to get property of non-object (C:\make a website\maximus\protected\controllers\SiteController.php:139)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/page?link=404
+in C:\make a website\maximus\protected\controllers\SiteController.php (139)
+in C:\make a website\maximus\index.php (13)
+2013/11/11 22:44:53 [error] [php] Trying to get property of non-object (C:\make a website\maximus\protected\controllers\SiteController.php:139)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/page?link=404
+in C:\make a website\maximus\protected\controllers\SiteController.php (139)
+in C:\make a website\maximus\index.php (13)
+2013/11/11 22:45:00 [error] [php] Trying to get property of non-object (C:\make a website\maximus\protected\controllers\SiteController.php:140)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/site/page?link=404
+in C:\make a website\maximus\protected\controllers\SiteController.php (140)
+in C:\make a website\maximus\index.php (13)
+2013/11/11 22:45:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 22:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 22:45:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 22:46:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 22:47:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 22:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 22:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 22:48:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 22:49:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 22:51:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 22:51:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:03:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:04:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:05:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:05:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:05:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:06:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:06:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:07:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:08:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:09:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:22:37 [error] [exception.CException] exception 'CException' with message 'Property "CPagination.page" is not defined.' in C:\make a website\maximus\protected\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CDataProvider.php(106): CComponent->__set('page', 5)
+#1 C:\make a website\maximus\protected\framework\base\CComponent.php(152): CDataProvider->setPagination(Array)
+#2 C:\make a website\maximus\protected\framework\web\CActiveDataProvider.php(96): CComponent->__set('pagination', Array)
+#3 C:\make a website\maximus\protected\models\ContactModel.php(100): CActiveDataProvider->__construct(Object(ContactModel), Array)
+#4 C:\make a website\maximus\protected\modules\admin\views\contact\admin.php(46): ContactModel->search()
+#5 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#7 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#9 C:\make a website\maximus\protected\modules\admin\controllers\ContactController.php(125): CController->render('admin', Array)
+#10 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): ContactController->actionAdmin()
+#11 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#20 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/contact/a...')
+#21 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\make a website\maximus\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/admin/contact/admin
+HTTP_REFERER=http://maximus/admin/block/admin
+---
+2013/11/11 23:22:42 [error] [exception.CException] exception 'CException' with message 'Property "CPagination.items" is not defined.' in C:\make a website\maximus\protected\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CDataProvider.php(106): CComponent->__set('items', 5)
+#1 C:\make a website\maximus\protected\framework\base\CComponent.php(152): CDataProvider->setPagination(Array)
+#2 C:\make a website\maximus\protected\framework\web\CActiveDataProvider.php(96): CComponent->__set('pagination', Array)
+#3 C:\make a website\maximus\protected\models\ContactModel.php(100): CActiveDataProvider->__construct(Object(ContactModel), Array)
+#4 C:\make a website\maximus\protected\modules\admin\views\contact\admin.php(46): ContactModel->search()
+#5 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#7 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#9 C:\make a website\maximus\protected\modules\admin\controllers\ContactController.php(125): CController->render('admin', Array)
+#10 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): ContactController->actionAdmin()
+#11 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#20 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/contact/a...')
+#21 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\make a website\maximus\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/admin/contact/admin
+HTTP_REFERER=http://maximus/admin/block/admin
+---
+2013/11/11 23:22:48 [error] [exception.CException] exception 'CException' with message 'Property "CPagination.perpage" is not defined.' in C:\make a website\maximus\protected\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CDataProvider.php(106): CComponent->__set('perpage', 5)
+#1 C:\make a website\maximus\protected\framework\base\CComponent.php(152): CDataProvider->setPagination(Array)
+#2 C:\make a website\maximus\protected\framework\web\CActiveDataProvider.php(96): CComponent->__set('pagination', Array)
+#3 C:\make a website\maximus\protected\models\ContactModel.php(100): CActiveDataProvider->__construct(Object(ContactModel), Array)
+#4 C:\make a website\maximus\protected\modules\admin\views\contact\admin.php(46): ContactModel->search()
+#5 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#7 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#9 C:\make a website\maximus\protected\modules\admin\controllers\ContactController.php(125): CController->render('admin', Array)
+#10 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): ContactController->actionAdmin()
+#11 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#20 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/contact/a...')
+#21 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\make a website\maximus\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/admin/contact/admin
+HTTP_REFERER=http://maximus/admin/block/admin
+---
+2013/11/11 23:23:40 [error] [exception.CException] exception 'CException' with message 'Property "CPagination.pages" is not defined.' in C:\make a website\maximus\protected\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CDataProvider.php(106): CComponent->__set('pages', 5)
+#1 C:\make a website\maximus\protected\framework\base\CComponent.php(152): CDataProvider->setPagination(Array)
+#2 C:\make a website\maximus\protected\framework\web\CActiveDataProvider.php(96): CComponent->__set('pagination', Array)
+#3 C:\make a website\maximus\protected\models\ContactModel.php(100): CActiveDataProvider->__construct(Object(ContactModel), Array)
+#4 C:\make a website\maximus\protected\modules\admin\views\contact\admin.php(46): ContactModel->search()
+#5 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#7 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#9 C:\make a website\maximus\protected\modules\admin\controllers\ContactController.php(125): CController->render('admin', Array)
+#10 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): ContactController->actionAdmin()
+#11 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#20 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/contact/a...')
+#21 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\make a website\maximus\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/admin/contact/admin
+HTTP_REFERER=http://maximus/admin/block/admin
+---
+2013/11/11 23:23:53 [error] [exception.CException] exception 'CException' with message 'Property "CPagination.page_size" is not defined.' in C:\make a website\maximus\protected\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CDataProvider.php(106): CComponent->__set('page_size', 5)
+#1 C:\make a website\maximus\protected\framework\base\CComponent.php(152): CDataProvider->setPagination(Array)
+#2 C:\make a website\maximus\protected\framework\web\CActiveDataProvider.php(96): CComponent->__set('pagination', Array)
+#3 C:\make a website\maximus\protected\models\ContactModel.php(100): CActiveDataProvider->__construct(Object(ContactModel), Array)
+#4 C:\make a website\maximus\protected\modules\admin\views\contact\admin.php(46): ContactModel->search()
+#5 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#7 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#9 C:\make a website\maximus\protected\modules\admin\controllers\ContactController.php(125): CController->render('admin', Array)
+#10 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): ContactController->actionAdmin()
+#11 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('admin')
+#20 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/contact/a...')
+#21 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\make a website\maximus\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/admin/contact/admin
+HTTP_REFERER=http://maximus/admin/block/admin
+---
+2013/11/11 23:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/2/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/2/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/2/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 23:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/5/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 23:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/6/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 23:32:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/3/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/3/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/3/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 23:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/2/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/2/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/2/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 23:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/3/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/3/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/3/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 23:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/6/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 23:34:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/5/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/11 23:35:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The specified post cannot be found.' in C:\make a website\maximus\protected\controllers\SiteController.php:136
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): SiteController->actionPage()
+#1 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\make a website\maximus\protected\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#3 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('page')
+#5 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#6 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\make a website\maximus\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/site/page?link=404
+---
+2013/11/11 23:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sdsd".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('sdsd')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sdsd
+---
+2013/11/11 23:53:05 [error] [exception.CException] exception 'CException' with message 'Alias "application.yiibooster.widgets.TbActiveForm" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\make a website\maximus\protected\framework\YiiBase.php:322
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.yii...', true)
+#1 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CommentController), 'application.yii...', Array)
+#2 C:\make a website\maximus\protected\framework\web\CBaseController.php(189): CBaseController->createWidget('application.yii...', Array)
+#3 C:\make a website\maximus\protected\modules\admin\views\comment\_form.php(16): CBaseController->beginWidget('application.yii...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#5 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#6 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#7 C:\make a website\maximus\protected\modules\admin\views\comment\update.php(21): CController->renderPartial('_form', Array)
+#8 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#9 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#10 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#11 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#12 C:\make a website\maximus\protected\modules\admin\controllers\CommentController.php(95): CController->render('update', Array)
+#13 [internal function]: CommentController->actionUpdate('1')
+#14 C:\make a website\maximus\protected\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CommentController), Array)
+#15 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CommentController), Object(ReflectionMethod), Array)
+#16 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('update')
+#25 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/comment/u...')
+#26 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\make a website\maximus\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/admin/comment/update/id/1
+HTTP_REFERER=http://maximus/admin/comment/admin
+---
+2013/11/11 23:53:21 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.input.TbInput" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\extensions\yiibooster\widgets\TbActiveForm.php(10): YiiBase::import('bootstrap.widge...')
+#1 C:\make a website\maximus\protected\framework\YiiBase.php(320): require('C:\make a websi...')
+#2 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CommentController), 'application.ext...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(189): CBaseController->createWidget('application.ext...', Array)
+#5 C:\make a website\maximus\protected\modules\admin\views\comment\_form.php(16): CBaseController->beginWidget('application.ext...', Array)
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#9 C:\make a website\maximus\protected\modules\admin\views\comment\update.php(21): CController->renderPartial('_form', Array)
+#10 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#12 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#13 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#14 C:\make a website\maximus\protected\modules\admin\controllers\CommentController.php(95): CController->render('update', Array)
+#15 [internal function]: CommentController->actionUpdate('1')
+#16 C:\make a website\maximus\protected\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CommentController), Array)
+#17 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CommentController), Object(ReflectionMethod), Array)
+#18 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('update')
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/comment/u...')
+#28 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\make a website\maximus\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/admin/comment/update/id/1
+HTTP_REFERER=http://maximus/admin/comment/admin
+---
+2013/11/11 23:53:39 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.input.TbInput" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\extensions\yiibooster\widgets\TbActiveForm.php(10): YiiBase::import('bootstrap.widge...')
+#1 C:\make a website\maximus\protected\framework\YiiBase.php(320): require('C:\make a websi...')
+#2 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CommentController), 'application.ext...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(189): CBaseController->createWidget('application.ext...', Array)
+#5 C:\make a website\maximus\protected\modules\admin\views\comment\_form.php(17): CBaseController->beginWidget('application.ext...', Array)
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#9 C:\make a website\maximus\protected\modules\admin\views\comment\update.php(21): CController->renderPartial('_form', Array)
+#10 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#12 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#13 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#14 C:\make a website\maximus\protected\modules\admin\controllers\CommentController.php(95): CController->render('update', Array)
+#15 [internal function]: CommentController->actionUpdate('1')
+#16 C:\make a website\maximus\protected\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CommentController), Array)
+#17 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CommentController), Object(ReflectionMethod), Array)
+#18 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('update')
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/comment/u...')
+#28 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\make a website\maximus\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/admin/comment/update/id/1
+HTTP_REFERER=http://maximus/admin/comment/admin
+---
+2013/11/11 23:54:09 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.input.TbInput" is invalid. Make sure it points to an existing directory or file.' in C:\make a website\maximus\protected\framework\YiiBase.php:347
+Stack trace:
+#0 C:\make a website\maximus\protected\extensions\yiibooster\widgets\TbActiveForm.php(10): YiiBase::import('bootstrap.widge...')
+#1 C:\make a website\maximus\protected\framework\YiiBase.php(320): require('C:\make a websi...')
+#2 C:\make a website\maximus\protected\framework\web\CWidgetFactory.php(146): YiiBase::import('application.ext...', true)
+#3 C:\make a website\maximus\protected\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(CommentController), 'application.ext...', Array)
+#4 C:\make a website\maximus\protected\framework\web\CBaseController.php(189): CBaseController->createWidget('application.ext...', Array)
+#5 C:\make a website\maximus\protected\modules\admin\views\comment\_form.php(17): CBaseController->beginWidget('application.ext...', Array)
+#6 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#7 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#8 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#9 C:\make a website\maximus\protected\modules\admin\views\comment\update.php(21): CController->renderPartial('_form', Array)
+#10 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require('C:\make a websi...')
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\make a websi...', Array, true)
+#12 C:\make a website\maximus\protected\framework\web\CController.php(869): CBaseController->renderFile('C:\make a websi...', Array, true)
+#13 C:\make a website\maximus\protected\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#14 C:\make a website\maximus\protected\modules\admin\controllers\CommentController.php(95): CController->render('update', Array)
+#15 [internal function]: CommentController->actionUpdate('1')
+#16 C:\make a website\maximus\protected\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(CommentController), Array)
+#17 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(CommentController), Object(ReflectionMethod), Array)
+#18 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\make a website\maximus\protected\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#22 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\make a website\maximus\protected\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): CController->run('update')
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/comment/u...')
+#28 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\make a website\maximus\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/admin/comment/update/id/1
+HTTP_REFERER=http://maximus/admin/comment/admin
+---
+2013/11/12 00:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/2/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/2/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/2/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/5/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/3/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/3/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/3/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/6/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/2/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/2/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/2/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/6/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/3/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/3/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/3/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/5/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:27:14 [error] [php] include(TruncateText.php): failed to open stream: No such file or directory (C:\make a website\maximus\protected\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\base\CComponent.php(612) : eval()'d code(1): spl_autoload_call()
+#1 C:\make a website\maximus\protected\framework\base\CComponent.php(612): eval()
+#2 C:\make a website\maximus\protected\framework\zii\widgets\grid\CDataColumn.php(137): TbDataColumn->evaluateExpression()
+#3 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridColumn.php(151): TbDataColumn->renderDataCellContent()
+#4 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(616): TbDataColumn->renderDataCell()
+#5 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(572): TbGridView->renderTableRow()
+#6 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(482): TbGridView->renderTableBody()
+#7 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(167): TbGridView->renderItems()
+#8 unknown(0): TbGridView->renderSection()
+#9 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#10 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(135): TbGridView->renderContent()
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(173): TbGridView->run()
+#12 C:\make a website\maximus\protected\modules\admin\views\page\admin.php(49): PageController->widget()
+#13 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require()
+#14 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): PageController->renderInternal()
+#15 C:\make a website\maximus\protected\framework\web\CController.php(869): PageController->renderFile()
+#16 C:\make a website\maximus\protected\framework\web\CController.php(782): PageController->renderPartial()
+#17 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): PageController->render()
+#18 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#19 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#21 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\make a website\maximus\protected\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#23 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#24 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#25 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\make a website\maximus\protected\framework\web\CController.php(265): PageController->runActionWithFilters()
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): PageController->run()
+#28 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#29 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/page/admin
+in C:\make a website\maximus\protected\modules\admin\views\page\admin.php (49)
+in C:\make a website\maximus\protected\modules\admin\controllers\PageController.php (135)
+in C:\make a website\maximus\index.php (13)
+2013/11/12 00:27:47 [error] [php] strlen() expects exactly 1 parameter, 2 given (C:\make a website\maximus\protected\helpers\TruncateText.php:6)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\base\CComponent.php(612): eval()
+#1 C:\make a website\maximus\protected\framework\zii\widgets\grid\CDataColumn.php(137): TbDataColumn->evaluateExpression()
+#2 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridColumn.php(151): TbDataColumn->renderDataCellContent()
+#3 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(616): TbDataColumn->renderDataCell()
+#4 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(572): TbGridView->renderTableRow()
+#5 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(482): TbGridView->renderTableBody()
+#6 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(167): TbGridView->renderItems()
+#7 unknown(0): TbGridView->renderSection()
+#8 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#9 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(135): TbGridView->renderContent()
+#10 C:\make a website\maximus\protected\framework\web\CBaseController.php(173): TbGridView->run()
+#11 C:\make a website\maximus\protected\modules\admin\views\page\admin.php(49): PageController->widget()
+#12 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require()
+#13 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): PageController->renderInternal()
+#14 C:\make a website\maximus\protected\framework\web\CController.php(869): PageController->renderFile()
+#15 C:\make a website\maximus\protected\framework\web\CController.php(782): PageController->renderPartial()
+#16 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): PageController->render()
+#17 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#18 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\make a website\maximus\protected\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#22 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#23 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#24 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\make a website\maximus\protected\framework\web\CController.php(265): PageController->runActionWithFilters()
+#26 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): PageController->run()
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/page/admin
+in C:\make a website\maximus\protected\helpers\TruncateText.php (6)
+in C:\make a website\maximus\protected\modules\admin\views\page\admin.php (49)
+in C:\make a website\maximus\protected\modules\admin\controllers\PageController.php (135)
+2013/11/12 00:28:00 [error] [php] substr() expects at most 3 parameters, 4 given (C:\make a website\maximus\protected\helpers\TruncateText.php:10)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\base\CComponent.php(612): eval()
+#1 C:\make a website\maximus\protected\framework\zii\widgets\grid\CDataColumn.php(137): TbDataColumn->evaluateExpression()
+#2 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridColumn.php(151): TbDataColumn->renderDataCellContent()
+#3 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(616): TbDataColumn->renderDataCell()
+#4 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(572): TbGridView->renderTableRow()
+#5 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(482): TbGridView->renderTableBody()
+#6 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(167): TbGridView->renderItems()
+#7 unknown(0): TbGridView->renderSection()
+#8 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#9 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(135): TbGridView->renderContent()
+#10 C:\make a website\maximus\protected\framework\web\CBaseController.php(173): TbGridView->run()
+#11 C:\make a website\maximus\protected\modules\admin\views\page\admin.php(49): PageController->widget()
+#12 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require()
+#13 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): PageController->renderInternal()
+#14 C:\make a website\maximus\protected\framework\web\CController.php(869): PageController->renderFile()
+#15 C:\make a website\maximus\protected\framework\web\CController.php(782): PageController->renderPartial()
+#16 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): PageController->render()
+#17 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#18 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#19 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#20 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\make a website\maximus\protected\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#22 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#23 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#24 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\make a website\maximus\protected\framework\web\CController.php(265): PageController->runActionWithFilters()
+#26 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): PageController->run()
+#27 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#28 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#29 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/page/admin
+in C:\make a website\maximus\protected\helpers\TruncateText.php (10)
+in C:\make a website\maximus\protected\modules\admin\views\page\admin.php (49)
+in C:\make a website\maximus\protected\modules\admin\controllers\PageController.php (135)
+2013/11/12 00:34:13 [error] [php] Undefined variable: maxLength (C:\make a website\maximus\protected\helpers\TruncateText.php:8)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\zii\widgets\grid\CDataColumn.php(137): TbDataColumn->evaluateExpression()
+#1 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridColumn.php(151): TbDataColumn->renderDataCellContent()
+#2 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(616): TbDataColumn->renderDataCell()
+#3 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(572): TbGridView->renderTableRow()
+#4 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(482): TbGridView->renderTableBody()
+#5 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(167): TbGridView->renderItems()
+#6 unknown(0): TbGridView->renderSection()
+#7 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#8 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(135): TbGridView->renderContent()
+#9 C:\make a website\maximus\protected\framework\web\CBaseController.php(173): TbGridView->run()
+#10 C:\make a website\maximus\protected\modules\admin\views\page\admin.php(49): PageController->widget()
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require()
+#12 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): PageController->renderInternal()
+#13 C:\make a website\maximus\protected\framework\web\CController.php(869): PageController->renderFile()
+#14 C:\make a website\maximus\protected\framework\web\CController.php(782): PageController->renderPartial()
+#15 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): PageController->render()
+#16 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#17 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#19 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\make a website\maximus\protected\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#21 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#22 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#23 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\make a website\maximus\protected\framework\web\CController.php(265): PageController->runActionWithFilters()
+#25 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): PageController->run()
+#26 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#27 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/page/admin
+in C:\make a website\maximus\protected\helpers\TruncateText.php (8)
+in C:\make a website\maximus\protected\modules\admin\views\page\admin.php (49)
+in C:\make a website\maximus\protected\modules\admin\controllers\PageController.php (135)
+2013/11/12 00:34:24 [error] [php] Undefined variable: maxLength (C:\make a website\maximus\protected\helpers\TruncateText.php:8)
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\zii\widgets\grid\CDataColumn.php(137): TbDataColumn->evaluateExpression()
+#1 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridColumn.php(151): TbDataColumn->renderDataCellContent()
+#2 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(616): TbDataColumn->renderDataCell()
+#3 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(572): TbGridView->renderTableRow()
+#4 C:\make a website\maximus\protected\framework\zii\widgets\grid\CGridView.php(482): TbGridView->renderTableBody()
+#5 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(167): TbGridView->renderItems()
+#6 unknown(0): TbGridView->renderSection()
+#7 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#8 C:\make a website\maximus\protected\framework\zii\widgets\CBaseListView.php(135): TbGridView->renderContent()
+#9 C:\make a website\maximus\protected\framework\web\CBaseController.php(173): TbGridView->run()
+#10 C:\make a website\maximus\protected\modules\admin\views\page\admin.php(49): PageController->widget()
+#11 C:\make a website\maximus\protected\framework\web\CBaseController.php(126): require()
+#12 C:\make a website\maximus\protected\framework\web\CBaseController.php(95): PageController->renderInternal()
+#13 C:\make a website\maximus\protected\framework\web\CController.php(869): PageController->renderFile()
+#14 C:\make a website\maximus\protected\framework\web\CController.php(782): PageController->renderPartial()
+#15 C:\make a website\maximus\protected\modules\admin\controllers\PageController.php(135): PageController->render()
+#16 C:\make a website\maximus\protected\framework\web\actions\CInlineAction.php(49): PageController->actionAdmin()
+#17 C:\make a website\maximus\protected\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(133): PageController->runAction()
+#19 C:\make a website\maximus\protected\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\make a website\maximus\protected\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#21 C:\make a website\maximus\protected\framework\web\filters\CInlineFilter.php(58): PageController->filterAccessControl()
+#22 C:\make a website\maximus\protected\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#23 C:\make a website\maximus\protected\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\make a website\maximus\protected\framework\web\CController.php(265): PageController->runActionWithFilters()
+#25 C:\make a website\maximus\protected\framework\web\CWebApplication.php(282): PageController->run()
+#26 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#27 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\make a website\maximus\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/page/admin
+in C:\make a website\maximus\protected\helpers\TruncateText.php (8)
+in C:\make a website\maximus\protected\modules\admin\views\page\admin.php (49)
+in C:\make a website\maximus\protected\modules\admin\controllers\PageController.php (135)
+2013/11/12 00:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/2/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/2/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/2/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/5/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/5/avatar/Fish-hd-walllpaper-1080.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/3/avatar".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/3/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/3/avatar/
+HTTP_REFERER=http://maximus/admin/user/admin
+---
+2013/11/12 00:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg".' in C:\make a website\maximus\protected\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\make a website\maximus\protected\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/User/6/...')
+#1 C:\make a website\maximus\protected\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\make a website\maximus\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/User/6/avatar/2013-Audi-R8-Track-Review-Philip-Island-07-e1363869424426.jpg
+HTTP_REFERER=http://maximus/admin/user/admin
+---

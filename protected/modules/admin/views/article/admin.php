@@ -46,8 +46,14 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'filter'=>$model,
 	'columns'=>array(
 		'title',
-		'shirtDesc',
-		'content',
+                array(
+                'name' => 'shirtDesc',
+                'value' => 'TruncateText::truncate($data->shirtDesc,15)',
+                ),
+                array(
+                'name' => 'content',
+                'value' => 'TruncateText::truncate($data->content,15)',
+                ),
                 'image',
                 array(
                     'name'  => 'authorId',

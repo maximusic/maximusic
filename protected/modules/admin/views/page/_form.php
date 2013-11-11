@@ -31,25 +31,22 @@
 		<?php echo $form->error($model,'template'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'content'); ?>
-                <?php
-                $this->widget(
-                        'application.extensions.yiibooster.widgets.TbRedactorJs', [
-//                    'name' => 'content',
-                      'model' => $model,
-                      'attribute' =>'content',    
-                        'value' => 'content',
-                      'editorOptions' => [
-                         'plugins' => ['fontfamily']    
-                          
-                          ]      
-                      
-                        ]
-                );
-                ?>
-		<?php echo $form->error($model,'content'); ?>
-	</div>
+        <div class="row">
+            <?php echo $form->labelEx($model, 'content'); ?>
+            <?php
+            $this->widget(
+                    'application.extensions.yiibooster.widgets.TbRedactorJs', [
+                'model' => $model,
+                'attribute' => 'content',
+                'value' => 'content',
+                'editorOptions' => [
+                    'plugins' => ['fontfamily']
+                ]
+                    ]
+            );
+            ?>
+            <?php echo $form->error($model, 'content'); ?>
+        </div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

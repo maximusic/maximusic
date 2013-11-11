@@ -42,7 +42,7 @@ class SiteController extends Controller {
             if (Yii::app()->request->isAjaxRequest)
                 echo $error['message'];
             else
-                $this->render('error', $error);
+                $this->render('application.views.site.error', $error);
         }
     }
 
@@ -129,17 +129,16 @@ class SiteController extends Controller {
         }
         
     public function actionPage(){
-        $title = Yii::app()->request->getParam('title');
+        $title = Yii::app()->request->getParam('link');
         $this->layout='main';
-        $page = PageModel::model()->findByAttributes(array('title' => 'about'));
+        $page = PageModel::model()->findByAttributes(array('link' => $title));
+        if(empty($page)) {
+           throw new CHttpException(404,'The specified post cannot be found.');
+        }
             switch ($page->template) {
             case "1column":
                 $this->layout='1columnPage';
                 $class = 'full_width';
-                break;
-            case "2columns with left sidebar":
-                $this->layout='2columnLeft';
-                $class = 'cont';
                 break;
             case "2columns with right sidebar":
                 $this->layout='2columnRight';
@@ -150,6 +149,7 @@ class SiteController extends Controller {
             'page'  => $page,
             'class' => $class    
         ));
-    }    
+    }
+    
 
 }

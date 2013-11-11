@@ -3,7 +3,6 @@
 <div class="content spr">   
     <?php echo $content; ?>
     <div id="sliding-navigation" class="sidebar">
-        <?php $this->widget('application.widgets.CategoriesWidget');?>
         <?php
         $this->widget('application.widgets.LatestNewsWidget', array(
             'limit' => 3
@@ -13,6 +12,5 @@
     <div class="clear"></div>
 </div>
 </div>
-
 <?php $this->endContent(); ?>
 

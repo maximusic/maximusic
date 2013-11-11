@@ -1,15 +1,16 @@
+<?php Yii::app()->getComponent("bootstrap"); ?>
 <?php
 /* @var $this PageController */
 /* @var $model PageModel */
 
 $this->breadcrumbs=array(
-	'Page Models'=>array('index'),
+	'Pages'=>array('index'),
 	'Manage',
 );
 
 $this->menu=array(
-	array('label'=>'List PageModel', 'url'=>array('index')),
-	array('label'=>'Create PageModel', 'url'=>array('create')),
+	array('label'=>'List Pages', 'url'=>array('index')),
+	array('label'=>'Create Page', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,31 +27,23 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Page Models</h1>
-
-<p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
-</p>
-
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
-<div class="search-form" style="display:none">
-<?php $this->renderPartial('_search',array(
-	'model'=>$model,
-)); ?>
-</div><!-- search-form -->
-
-<?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'page-model-grid',
-	'dataProvider'=>$model->search(),
-	'filter'=>$model,
-	'columns'=>array(
-		'id',
-		'title',
+<h1>Manage Pages</h1>
+<!-- search-form -->
+<?php
+$this->widget('application.extensions.yiibooster.widgets.TbGridView', array(
+    'type' => 'striped bordered condensed',
+    'dataProvider' => $model->search(),
+    'filter' => $model,
+    'columns' => array(
+                'title',
 		'template',
-		'content',
-		array(
-			'class'=>'CButtonColumn',
-		),
-	),
-)); ?>
+                array(
+                  'name'  => 'content',
+                  'value' => 'TruncateText::truncate($data->content,100)',
+                ),
+        array(
+            'class' => 'application.extensions.yiibooster.widgets.TbButtonColumn',
+        )),
+));
+?>
+
